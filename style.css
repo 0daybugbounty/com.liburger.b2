@@ -1,0 +1,355 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@700&family=Anton&family=Caveat:wght@600&family=Lilita+One&family=Lora&family=Pacifico&family=Play&family=Playfair+Display:wght@500&family=Prata&family=Roboto:wght@300&family=Style+Script&display=swap');
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  /* Barre de navigation */
+  .nav-link{
+color: white;
+background-color:rgb(29, 57, 96);
+margin:15px;
+width:180px;
+font-size:25px;
+border-radius:30px;
+text-align: center;
+font-family: 'Playfair Display', serif;
+font-weight: bold;
+}
+
+.nav-link:hover{
+background-color: rgb(213, 160, 61);
+color: white;
+}
+img{
+max-width:100%;
+height: auto;
+}
+/* banniere */
+.second{
+background-image: url(/IMG/pic1.jpg);
+background-size: cover;
+max-width: 100%;
+height:1000px;
+}
+.Titre{
+font-size:100px;
+font-family: 'Playfair Display', serif;
+color: rgb(28, 179, 179);
+font-weight:bolder;
+display: flex;
+width: 70%;
+justify-content:flex-start;
+padding:9.5%;
+margin-left:-80px;
+}
+ 
+.third{
+background-image: url(/IMG/pic2.jpg);
+background-size: cover;
+width: 100%;
+height:auto;
+display: flex;
+justify-content: center;
+}
+  .section1{
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  margin-top:100px;
+  }
+  .section2{
+    margin-top:100px;
+  }
+  .image{
+  margin:20px;
+  }
+  .image:hover {
+    opacity: 65%;
+  }
+
+
+  /* banniere burger  */
+  .Barre{
+    width: 100%;
+    margin-top: -130px;
+  }
+
+ /* Pub et personne  */
+  .fourth{
+  display: flex;
+  width: 100%;
+  height:1000px;
+  }
+ .img{
+background-image: url(/IMG/pic2.jpg);
+height:1000px;
+background-size: 100% 100%;
+background-position: center;
+width:40%;
+ }
+ .pub{
+width:60%;
+background-color: white;
+height: 1000px;
+ }
+ .parole{
+  font-size:70px;
+  font-family: 'Playfair Display', serif;
+  color: rgb(28, 179, 179);
+  font-weight:bolder;
+  display: flex;
+  padding:20%;
+  margin-left:-80px;
+  }
+  .ligneA{
+  display: flex;
+  justify-content:space-around;
+  margin-top:70px;
+  }
+  .ligneB{
+    display: flex;
+    justify-content:space-around;
+    margin-top:70px;
+    }
+    .sousligne{
+    display: flex;
+    flex-direction: column;
+    }
+    .ligneC{
+      display: flex;
+    justify-content:space-around;
+    margin-top:70px;
+    } 
+    /* message */
+    .fifth{
+    background-image: url(/IMG/fond.jpg);
+    width: 100%;
+    height:1000px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    }
+  .comment1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+    .one{
+  margin:20px;
+  margin-top:30px;
+  border-radius:35px;
+    }
+    .two{
+      margin:20px;
+      border-radius:35px;
+        }
+.comment1{
+display:flex;
+}
+.comment2{
+display: flex;
+}
+/* message */
+.six{
+  background-image: url(/IMG/pic2.jpg);
+  width: 100%;
+  height: 950px;
+  display: flex;
+justify-content:center;
+  }
+  .form{
+    margin:25px;
+  margin-top:150px;
+  }
+  .map{
+    margin-top:190px;
+    }
+.Para{
+  font-family: 'Playfair Display', serif;
+  color: rgb(28, 179, 179);
+  font-size:25px;
+  margin: 10px;
+}
+.send{
+  color: rgb(28, 179, 179);
+  font-family: 'Playfair Display', serif;
+  font-size:25px;
+  width:200px;
+  margin-top: 40px;
+  border-radius:20px;
+  padding: 10px;
+  background-color:rgb(29, 57, 96);
+  border-width: 0px;
+  margin-left:270px;
+}
+.send:hover{
+  background-color: rgb(213, 160, 61);
+  color: white;
+}
+.socialmedia{
+display: flex;
+justify-content:center;
+align-items: end;
+margin-left:-200px;
+}
+.a:hover{
+  opacity: 65%;
+}
+.b:hover{
+  opacity: 65%;
+} 
+
+@media screen and (max-width:1500px) {
+.second {
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  margin-bottom:-10px;
+  margin-top:-20px;
+}
+.parole{
+  font-size:50px;
+  font-family: 'Playfair Display', serif;
+  color: rgb(28, 179, 179);
+  font-weight:bolder;
+  display: flex;
+  padding:20%;
+  margin-left:0px;
+  }
+  .six{
+    background-image: url(/IMG/pic2.jpg);
+    background-size: cover;
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+  justify-content:center;
+    }
+    .form{
+    margin:35px;
+    margin-top:150px;
+    }
+      .socialmedia{
+        display: flex;
+        justify-content:center;
+        align-items:flex-start;
+        } 
+        iframe{
+        width:500px;
+        }
+        .map{
+        margin-top:100px;
+        margin-bottom:20px;
+        display: flex;
+        justify-content: center;
+       align-self: center;
+
+        }
+        .send{
+        margin-left:0px;
+        }
+}
+
+@media screen and (max-width:990px) {
+.logo{
+width:200px;
+}
+.second {
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  margin-bottom:-10px;
+  margin-top:-20px;
+}
+.Titre {
+  font-size:70px;
+  margin-left:30px;
+  padding:0;
+  width:0%;
+}
+.third{
+  height:3300px;
+  background-size: cover;
+  display:block;
+  justify-content: center;
+  }
+  .section1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    margin-top:50px;
+    } 
+    .section2{
+      margin-top:0px;
+      padding:60px;
+    }
+    .Barre{
+      width: 100%;
+      margin-top: -130px;
+    }
+    .fourth{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height:1400px;
+      }
+      .img{
+        background-image: url(/IMG/pic2.jpg);
+        height:1000px;
+        background-size: 100% 100%;
+        background-position: center;
+        width:100%;
+         }
+         .pub{
+          width:100%;
+          background-color: white;
+          height: 1000px;
+           }
+           .ligneA{
+            display: flex;
+            flex-direction: column;
+            justify-content:space-around;
+            margin-top:50px;
+            align-items: center;
+            }
+            .ligneB{
+              display: flex;
+              flex-direction: column;
+              justify-content:center;
+              margin-top:70px;
+              align-items: center;
+              }
+              .sousligne{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              }
+              .ligneC{
+                display: flex;
+              flex-direction: column;
+              justify-content:center;
+              align-items: center;
+              margin-top:70px;
+              }
+              .fifth{
+                background-image: url(/IMG/fond.jpg);
+                background-size: cover;
+                width: 100%;
+                height:auto;
+                margin-top:450px;
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                }  
+                .comment1{
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  } 
+                
+                }

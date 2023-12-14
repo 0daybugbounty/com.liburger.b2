@@ -1,0 +1,62 @@
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+.order {
+    min-height: 50vh;
+}
+
+
+.card.aside {
+    margin-top: 55px;
+    border-radius: 20px;
+    border: 1px solid #d39f2f;
+    ;
+    padding: 5px;
+    color: #305090;
+    ;
+
+}
+
+.card.radius {
+    border-radius: 20px;
+    border: 1px solid #d39f2f;
+    ;
+    padding: 5px;
+    color: #305090;
+    ;
+
+}
+
+.card>img {
+    border-radius: 30px;
+}
+
+.card>span {
+    height: 30%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.address {
+    padding-top: 400px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateX(10%);
+    padding-right: 10px;
+}
+
+tr>td:nth-child(1) {
+    color: #d39f2f;
+}
+
+tr>td:nth-child(2) {
+    color: #305090;
+}
